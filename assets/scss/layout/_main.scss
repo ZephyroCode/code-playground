@@ -1,0 +1,32 @@
+.main {
+  padding: 1.5em 3em 3em;
+  text-align: center;
+
+  &__title {
+    margin-top: 0;
+    font-size: 1.4rem;
+    color: $purple;
+  }
+
+  &__text {
+    font-size: 1rem;
+  }
+
+  &__link {
+    color: $blue;
+    transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+
+    &:hover {
+      color: $celeste;
+      border-bottom: 2px solid $celeste;
+    }
+  }
+
+  & em {
+    color: $pink;
+  }
+
+  & strong {
+    color: $pink;
+  }
+}

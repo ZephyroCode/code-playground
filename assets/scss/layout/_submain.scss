@@ -1,0 +1,18 @@
+.submain {
+  padding: 1em 2em;
+
+  &__title {
+    font-size: 1.3rem;
+    color: $purple;
+  }
+
+  &__link {
+    color: $blue;
+    transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+
+    &:hover {
+      color: $celeste;
+      border-bottom: 2px solid $celeste;
+    }
+  }
+}

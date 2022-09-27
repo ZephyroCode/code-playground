@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0.5em;
+  background-color: $black;
+  border-bottom: 2px solid $pink;
+
+  &__title {
+    font-size: 1.45rem;
+    color: $purple;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__link {
+    margin-left: 1em;
+    font-size: 1rem;
+    color: $blue;
+    transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+
+    &:hover {
+      color: $celeste;
+      border-bottom: 2px solid $celeste;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: lighten($color: $black, $amount: 5);
+  color: $white;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

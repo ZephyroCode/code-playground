@@ -1,0 +1,144 @@
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #343c44;
+  color: #cdcdcd;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0.5em;
+  background-color: #292f36;
+  border-bottom: 2px solid #ff6c89;
+}
+.header__title {
+  font-size: 1.45rem;
+  color: #6874e8;
+}
+.header__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__link {
+  margin-left: 1em;
+  font-size: 1rem;
+  color: #1098f7;
+  transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+}
+.header__link:hover {
+  color: #a8f9ff;
+  border-bottom: 2px solid #a8f9ff;
+}
+
+.main {
+  padding: 1.5em 3em 3em;
+  text-align: center;
+}
+.main__title {
+  margin-top: 0;
+  font-size: 1.4rem;
+  color: #6874e8;
+}
+.main__text {
+  font-size: 1rem;
+}
+.main__link {
+  color: #1098f7;
+  transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+}
+.main__link:hover {
+  color: #a8f9ff;
+  border-bottom: 2px solid #a8f9ff;
+}
+.main em {
+  color: #ff6c89;
+}
+.main strong {
+  color: #ff6c89;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #292f36;
+  border-top: 2px solid #ff6c89;
+}
+.footer__title {
+  margin: 0.5em 0;
+  font-size: 1.35rem;
+  color: #6874e8;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer__link {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #1098f7;
+  transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+}
+.footer__link:hover {
+  color: #a8f9ff;
+  border-bottom: 2px solid #a8f9ff;
+}
+
+.submain {
+  padding: 1em 2em;
+}
+.submain__title {
+  font-size: 1.3rem;
+  color: #6874e8;
+}
+.submain__link {
+  color: #1098f7;
+  transition: color 0.2s ease-in-out, border 0.3s ease-in-out;
+}
+.submain__link:hover {
+  color: #a8f9ff;
+  border-bottom: 2px solid #a8f9ff;
+}
+
+.htmldemo {
+  margin-bottom: 2em;
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  border: 2px solid #ff6c89;
+}
+.htmldemo__title {
+  font-size: 1.25rem;
+  color: #6874e8;
+}
+.htmldemo strong {
+  color: #ff6c89;
+}
+.htmldemo em {
+  color: #ff6c89;
+}
+
+/*# sourceMappingURL=style.css.map */

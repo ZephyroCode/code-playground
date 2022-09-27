@@ -1,0 +1,16 @@
+{
+  "name": "zephyro-playground",
+  "version": "1.0.0",
+  "description": "Zephyro's playground to test random stuff",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./assets/scss/main.scss ./assets/css/style.css"
+  },
+  "keywords": [
+    "test",
+    "code",
+    "playground"
+  ],
+  "author": "Wilver Salazar",
+  "license": "MIT"
+}

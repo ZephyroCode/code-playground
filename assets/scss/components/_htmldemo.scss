@@ -1,0 +1,19 @@
+.htmldemo {
+  margin-bottom: 2em;
+  padding: 0.5em 1.5em;
+  border-radius: 1em;
+  border: 2px solid $pink;
+
+  &__title {
+    font-size: 1.25rem;
+    color: $purple;
+  }
+
+  & strong {
+    color: $pink;
+  }
+
+  & em {
+    color: $pink;
+  }
+}
